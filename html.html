@@ -1,0 +1,146 @@
+<!DOCTYPE html>    <!-- tag that tells the browser that this is an html file -->
+<html lang="en">   <!-- html tag for English -->
+
+<!-- head indicating site setting -->
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Demo App !!!! </title>
+        <style type="text/css">
+            /* this is where your css goes */
+            body {
+                margin: 0;
+                padding: 0;
+                color:green;
+            }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                font-size: x-large;
+            }
+
+            div {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            span {
+                display: block;
+                border: black solid;
+                width: auto;
+            }
+
+            div.image-content {
+                background-image: url(//unsplash.it/1000/100);
+                padding: 0;
+                margin: 0;
+                height: 100px;
+            }
+
+            h1.content {
+                padding-top: 30px;
+                text-align: center;
+            }
+
+            div.card {
+                border: black solid;
+                border-radius: 3px;
+                min-height: auto;
+                padding: 50px;
+            }
+
+            button.card {
+                border: none;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            
+            a.card {
+                text-decoration: none;
+                color: orange;
+            }
+
+        </style>
+    </head>
+
+    <!-- main website guts -->
+    <body>
+        <div>
+            <h1> this my first html! </h1>
+            <p> this is where you write all your long form text content </p>
+        </div>   
+        <span></span>
+        <div class="image-content">
+            <h1 class="content" style="color: purple;"> we are learning! </h1>
+        </div>
+        <span></span>        
+        
+        <div class="card">
+            <h2> we are doing buttons next </h2>
+
+            <p>
+                this will be a useless button
+            </p>
+            <button type="button"> click me </button>
+
+            <p>
+                links to ref materials
+            </p>
+
+            <button class="card" type="button">
+                <a class="card" href="https://www.w3schools.com/html/html_links.asp">Link</a>
+            </button>
+            <button class="card" type="button">
+                <a class="card" href="https://code.visualstudio.com/docs/languages/html">Getting Started VS Code</a>
+            </button>
+            <button class="card" type="button">
+                <a class="card" href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Getting
+                    Started Live Server</a>
+            </button>
+            <button class="card" type="button">
+                <a class="card" href="https://www.w3schools.com/charsets/ref_html_utf8.asp">UTF-8</a>
+            </button>
+            <button class="card" type="button">
+                <a class="card" href="https://www.w3schools.com/tags/tag_span.asp">span</a>
+            </button>
+            <div style="margin:0; padding:0;">
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/cssref/pr_class_display.asp">Display Block</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/html/html_classes.asp">Class Attributes</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://unsplash.com/developers">Unsplash Api</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/css/css_align.asp">CSS Alignments</a>
+                </button>
+            </div>
+            <div style="margin:0; padding:0;">
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/tags/tag_input.asp">HTML Input</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/tags/tag_form.asp">HTML Form</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/tags/tag_button.asp">HTML Button</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/html/html_links.asp">HTML a</a>
+                </button>
+                <button class="card" type="button">
+                    <a class="card" href="https://www.w3schools.com/css/css_boxmodel.asp">Box Model</a>
+                </button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
